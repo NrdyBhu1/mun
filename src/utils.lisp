@@ -5,15 +5,15 @@
   (export '(vec2-x vec2-y))
   (defclass vec2 ()
     ((x
-       :initarg :x
-       :initform 0
-       :accessor vec2-x
-       :type integer)
+      :initarg :x
+      :initform 0
+      :accessor vec2-x
+      :type integer)
      (y
-       :initarg :y
-       :initform 0
-       :accessor vec2-y
-       :type integer))))
+      :initarg :y
+      :initform 0
+      :accessor vec2-y
+      :type integer))))
 
 (defmethod vec-is-empty((v vec2))
   (and (eql (vec2-x v) 0) (eql (vec2-y v) 0)))

@@ -10,8 +10,9 @@ pkgs.mkShell {
 		libGL
 		pkgconfig
 		tmux
-		sbcl
-		asdf
+		# sbcl
+		# asdf
+		roswell
 		file
 	];
 
